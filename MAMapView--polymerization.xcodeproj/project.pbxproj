@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1158C51EB881BC00B58858 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1158C41EB881BC00B58858 /* main.m */; };
+		4C1158C81EB881BC00B58858 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1158C71EB881BC00B58858 /* AppDelegate.m */; };
+		4C1158CB1EB881BC00B58858 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1158CA1EB881BC00B58858 /* ViewController.m */; };
+		4C1158CE1EB881BC00B58858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1158CC1EB881BC00B58858 /* Main.storyboard */; };
+		4C1158D01EB881BC00B58858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1158CF1EB881BC00B58858 /* Assets.xcassets */; };
+		4C1158D31EB881BC00B58858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1158D11EB881BC00B58858 /* LaunchScreen.storyboard */; };
+		4C1158DE1EB881BC00B58858 /* MAMapView__polymerizationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1158DD1EB881BC00B58858 /* MAMapView__polymerizationTests.m */; };
+		4C1158E91EB881BC00B58858 /* MAMapView__polymerizationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1158E81EB881BC00B58858 /* MAMapView__polymerizationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C1158DA1EB881BC00B58858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C1158B81EB881BC00B58858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1158BF1EB881BC00B58858;
+			remoteInfo = "MAMapView--polymerization";
+		};
+		4C1158E51EB881BC00B58858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C1158B81EB881BC00B58858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1158BF1EB881BC00B58858;
+			remoteInfo = "MAMapView--polymerization";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C1158C01EB881BC00B58858 /* MAMapView--polymerization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAMapView--polymerization.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1158C41EB881BC00B58858 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C1158C61EB881BC00B58858 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C1158C71EB881BC00B58858 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C1158C91EB881BC00B58858 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C1158CA1EB881BC00B58858 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C1158CD1EB881BC00B58858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C1158CF1EB881BC00B58858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C1158D21EB881BC00B58858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C1158D41EB881BC00B58858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1158D91EB881BC00B58858 /* MAMapView--polymerizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAMapView--polymerizationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1158DD1EB881BC00B58858 /* MAMapView__polymerizationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAMapView__polymerizationTests.m; sourceTree = "<group>"; };
+		4C1158DF1EB881BC00B58858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1158E41EB881BC00B58858 /* MAMapView--polymerizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAMapView--polymerizationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1158E81EB881BC00B58858 /* MAMapView__polymerizationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAMapView__polymerizationUITests.m; sourceTree = "<group>"; };
+		4C1158EA1EB881BC00B58858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C1158BD1EB881BC00B58858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1158D61EB881BC00B58858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1158E11EB881BC00B58858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C1158B71EB881BC00B58858 = {
+			isa = PBXGroup;
+			children = (
+				4C1158C21EB881BC00B58858 /* MAMapView--polymerization */,
+				4C1158DC1EB881BC00B58858 /* MAMapView--polymerizationTests */,
+				4C1158E71EB881BC00B58858 /* MAMapView--polymerizationUITests */,
+				4C1158C11EB881BC00B58858 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C1158C11EB881BC00B58858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C1158C01EB881BC00B58858 /* MAMapView--polymerization.app */,
+				4C1158D91EB881BC00B58858 /* MAMapView--polymerizationTests.xctest */,
+				4C1158E41EB881BC00B58858 /* MAMapView--polymerizationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C1158C21EB881BC00B58858 /* MAMapView--polymerization */ = {
+			isa = PBXGroup;
+			children = (
+				4C1158C61EB881BC00B58858 /* AppDelegate.h */,
+				4C1158C71EB881BC00B58858 /* AppDelegate.m */,
+				4C1158C91EB881BC00B58858 /* ViewController.h */,
+				4C1158CA1EB881BC00B58858 /* ViewController.m */,
+				4C1158CC1EB881BC00B58858 /* Main.storyboard */,
+				4C1158CF1EB881BC00B58858 /* Assets.xcassets */,
+				4C1158D11EB881BC00B58858 /* LaunchScreen.storyboard */,
+				4C1158D41EB881BC00B58858 /* Info.plist */,
+				4C1158C31EB881BC00B58858 /* Supporting Files */,
+			);
+			path = "MAMapView--polymerization";
+			sourceTree = "<group>";
+		};
+		4C1158C31EB881BC00B58858 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C1158C41EB881BC00B58858 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C1158DC1EB881BC00B58858 /* MAMapView--polymerizationTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C1158DD1EB881BC00B58858 /* MAMapView__polymerizationTests.m */,
+				4C1158DF1EB881BC00B58858 /* Info.plist */,
+			);
+			path = "MAMapView--polymerizationTests";
+			sourceTree = "<group>";
+		};
+		4C1158E71EB881BC00B58858 /* MAMapView--polymerizationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C1158E81EB881BC00B58858 /* MAMapView__polymerizationUITests.m */,
+				4C1158EA1EB881BC00B58858 /* Info.plist */,
+			);
+			path = "MAMapView--polymerizationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C1158BF1EB881BC00B58858 /* MAMapView--polymerization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1158ED1EB881BC00B58858 /* Build configuration list for PBXNativeTarget "MAMapView--polymerization" */;
+			buildPhases = (
+				4C1158BC1EB881BC00B58858 /* Sources */,
+				4C1158BD1EB881BC00B58858 /* Frameworks */,
+				4C1158BE1EB881BC00B58858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MAMapView--polymerization";
+			productName = "MAMapView--polymerization";
+			productReference = 4C1158C01EB881BC00B58858 /* MAMapView--polymerization.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C1158D81EB881BC00B58858 /* MAMapView--polymerizationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1158F01EB881BC00B58858 /* Build configuration list for PBXNativeTarget "MAMapView--polymerizationTests" */;
+			buildPhases = (
+				4C1158D51EB881BC00B58858 /* Sources */,
+				4C1158D61EB881BC00B58858 /* Frameworks */,
+				4C1158D71EB881BC00B58858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C1158DB1EB881BC00B58858 /* PBXTargetDependency */,
+			);
+			name = "MAMapView--polymerizationTests";
+			productName = "MAMapView--polymerizationTests";
+			productReference = 4C1158D91EB881BC00B58858 /* MAMapView--polymerizationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C1158E31EB881BC00B58858 /* MAMapView--polymerizationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1158F31EB881BC00B58858 /* Build configuration list for PBXNativeTarget "MAMapView--polymerizationUITests" */;
+			buildPhases = (
+				4C1158E01EB881BC00B58858 /* Sources */,
+				4C1158E11EB881BC00B58858 /* Frameworks */,
+				4C1158E21EB881BC00B58858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C1158E61EB881BC00B58858 /* PBXTargetDependency */,
+			);
+			name = "MAMapView--polymerizationUITests";
+			productName = "MAMapView--polymerizationUITests";
+			productReference = 4C1158E41EB881BC00B58858 /* MAMapView--polymerizationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C1158B81EB881BC00B58858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Michael;
+				TargetAttributes = {
+					4C1158BF1EB881BC00B58858 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UJ7KYTGD68;
+						ProvisioningStyle = Automatic;
+					};
+					4C1158D81EB881BC00B58858 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UJ7KYTGD68;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C1158BF1EB881BC00B58858;
+					};
+					4C1158E31EB881BC00B58858 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = UJ7KYTGD68;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C1158BF1EB881BC00B58858;
+					};
+				};
+			};
+			buildConfigurationList = 4C1158BB1EB881BC00B58858 /* Build configuration list for PBXProject "MAMapView--polymerization" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C1158B71EB881BC00B58858;
+			productRefGroup = 4C1158C11EB881BC00B58858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C1158BF1EB881BC00B58858 /* MAMapView--polymerization */,
+				4C1158D81EB881BC00B58858 /* MAMapView--polymerizationTests */,
+				4C1158E31EB881BC00B58858 /* MAMapView--polymerizationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C1158BE1EB881BC00B58858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1158D31EB881BC00B58858 /* LaunchScreen.storyboard in Resources */,
+				4C1158D01EB881BC00B58858 /* Assets.xcassets in Resources */,
+				4C1158CE1EB881BC00B58858 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1158D71EB881BC00B58858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1158E21EB881BC00B58858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C1158BC1EB881BC00B58858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1158CB1EB881BC00B58858 /* ViewController.m in Sources */,
+				4C1158C81EB881BC00B58858 /* AppDelegate.m in Sources */,
+				4C1158C51EB881BC00B58858 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1158D51EB881BC00B58858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1158DE1EB881BC00B58858 /* MAMapView__polymerizationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1158E01EB881BC00B58858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1158E91EB881BC00B58858 /* MAMapView__polymerizationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C1158DB1EB881BC00B58858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C1158BF1EB881BC00B58858 /* MAMapView--polymerization */;
+			targetProxy = 4C1158DA1EB881BC00B58858 /* PBXContainerItemProxy */;
+		};
+		4C1158E61EB881BC00B58858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C1158BF1EB881BC00B58858 /* MAMapView--polymerization */;
+			targetProxy = 4C1158E51EB881BC00B58858 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C1158CC1EB881BC00B58858 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C1158CD1EB881BC00B58858 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C1158D11EB881BC00B58858 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C1158D21EB881BC00B58858 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C1158EB1EB881BC00B58858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C1158EC1EB881BC00B58858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C1158EE1EB881BC00B58858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UJ7KYTGD68;
+				INFOPLIST_FILE = "MAMapView--polymerization/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michal.MAMapView--polymerization";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C1158EF1EB881BC00B58858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UJ7KYTGD68;
+				INFOPLIST_FILE = "MAMapView--polymerization/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michal.MAMapView--polymerization";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C1158F11EB881BC00B58858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UJ7KYTGD68;
+				INFOPLIST_FILE = "MAMapView--polymerizationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michal.MAMapView--polymerizationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAMapView--polymerization.app/MAMapView--polymerization";
+			};
+			name = Debug;
+		};
+		4C1158F21EB881BC00B58858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UJ7KYTGD68;
+				INFOPLIST_FILE = "MAMapView--polymerizationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michal.MAMapView--polymerizationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAMapView--polymerization.app/MAMapView--polymerization";
+			};
+			name = Release;
+		};
+		4C1158F41EB881BC00B58858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UJ7KYTGD68;
+				INFOPLIST_FILE = "MAMapView--polymerizationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michal.MAMapView--polymerizationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MAMapView--polymerization";
+			};
+			name = Debug;
+		};
+		4C1158F51EB881BC00B58858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UJ7KYTGD68;
+				INFOPLIST_FILE = "MAMapView--polymerizationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michal.MAMapView--polymerizationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MAMapView--polymerization";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C1158BB1EB881BC00B58858 /* Build configuration list for PBXProject "MAMapView--polymerization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1158EB1EB881BC00B58858 /* Debug */,
+				4C1158EC1EB881BC00B58858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1158ED1EB881BC00B58858 /* Build configuration list for PBXNativeTarget "MAMapView--polymerization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1158EE1EB881BC00B58858 /* Debug */,
+				4C1158EF1EB881BC00B58858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C1158F01EB881BC00B58858 /* Build configuration list for PBXNativeTarget "MAMapView--polymerizationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1158F11EB881BC00B58858 /* Debug */,
+				4C1158F21EB881BC00B58858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C1158F31EB881BC00B58858 /* Build configuration list for PBXNativeTarget "MAMapView--polymerizationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1158F41EB881BC00B58858 /* Debug */,
+				4C1158F51EB881BC00B58858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C1158B81EB881BC00B58858 /* Project object */;
+}
