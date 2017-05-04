@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06D93411934E14B1DA5A88E8 /* libPods-MAMapView--polymerization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C6F13FF2B29E1551F30803 /* libPods-MAMapView--polymerization.a */; };
 		4C1158C51EB881BC00B58858 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1158C41EB881BC00B58858 /* main.m */; };
 		4C1158C81EB881BC00B58858 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1158C71EB881BC00B58858 /* AppDelegate.m */; };
-		4C1158CB1EB881BC00B58858 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1158CA1EB881BC00B58858 /* ViewController.m */; };
 		4C1158CE1EB881BC00B58858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1158CC1EB881BC00B58858 /* Main.storyboard */; };
 		4C1158D01EB881BC00B58858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1158CF1EB881BC00B58858 /* Assets.xcassets */; };
 		4C1158D31EB881BC00B58858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1158D11EB881BC00B58858 /* LaunchScreen.storyboard */; };
 		4C1158DE1EB881BC00B58858 /* MAMapView__polymerizationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1158DD1EB881BC00B58858 /* MAMapView__polymerizationTests.m */; };
 		4C1158E91EB881BC00B58858 /* MAMapView__polymerizationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1158E81EB881BC00B58858 /* MAMapView__polymerizationUITests.m */; };
+		4C115A111EB8878200B58858 /* mapData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4C115A101EB8878200B58858 /* mapData.txt */; };
+		4C115A141EB887E900B58858 /* CustomeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C115A131EB887E900B58858 /* CustomeAnnotation.m */; };
+		4C115A1F1EB889E600B58858 /* QuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C115A1E1EB889E600B58858 /* QuadTree.m */; };
+		4C115A221EB88A2200B58858 /* CoordinateQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C115A211EB88A2200B58858 /* CoordinateQuadTree.m */; };
+		4C115A671EB88FDA00B58858 /* CustomeAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C115A661EB88FDA00B58858 /* CustomeAnnotationView.m */; };
+		4C115A6A1EB8916800B58858 /* CustomeAnnotionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C115A691EB8916800B58858 /* CustomeAnnotionsVC.m */; };
+		4C115A6D1EB8925500B58858 /* CommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C115A6C1EB8925500B58858 /* CommonUtility.m */; };
+		4C115A7B1EB8C70000B58858 /* dw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C115A711EB8C70000B58858 /* dw@2x.png */; };
+		4C115A7C1EB8C70000B58858 /* dw@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C115A721EB8C70000B58858 /* dw@3x.png */; };
+		4C115A7D1EB8C70000B58858 /* dw_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C115A731EB8C70000B58858 /* dw_select@2x.png */; };
+		4C115A7E1EB8C70000B58858 /* dw_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C115A741EB8C70000B58858 /* dw_select@3x.png */; };
+		4C115A7F1EB8C70000B58858 /* wx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C115A751EB8C70000B58858 /* wx@2x.png */; };
+		4C115A801EB8C70000B58858 /* wx@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C115A761EB8C70000B58858 /* wx@3x.png */; };
+		4C115A811EB8C70000B58858 /* wx_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C115A771EB8C70000B58858 /* wx_select@2x.png */; };
+		4C115A821EB8C70000B58858 /* wx_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C115A781EB8C70000B58858 /* wx_select@3x.png */; };
+		4C115A891EB8C8A200B58858 /* 01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C115A871EB8C8A200B58858 /* 01@2x.png */; };
+		4C115A8A1EB8C8A200B58858 /* 01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C115A881EB8C8A200B58858 /* 01@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30C6F13FF2B29E1551F30803 /* libPods-MAMapView--polymerization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MAMapView--polymerization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D04FF459FFB4073E5D11AA /* Pods-MAMapView--polymerization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAMapView--polymerization.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MAMapView--polymerization/Pods-MAMapView--polymerization.debug.xcconfig"; sourceTree = "<group>"; };
 		4C1158C01EB881BC00B58858 /* MAMapView--polymerization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAMapView--polymerization.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1158C41EB881BC00B58858 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C1158C61EB881BC00B58858 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C1158C71EB881BC00B58858 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4C1158C91EB881BC00B58858 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4C1158CA1EB881BC00B58858 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4C1158CD1EB881BC00B58858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C1158CF1EB881BC00B58858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C1158D21EB881BC00B58858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +68,30 @@
 		4C1158E41EB881BC00B58858 /* MAMapView--polymerizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAMapView--polymerizationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1158E81EB881BC00B58858 /* MAMapView__polymerizationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAMapView__polymerizationUITests.m; sourceTree = "<group>"; };
 		4C1158EA1EB881BC00B58858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C115A101EB8878200B58858 /* mapData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mapData.txt; sourceTree = "<group>"; };
+		4C115A121EB887E900B58858 /* CustomeAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomeAnnotation.h; sourceTree = "<group>"; };
+		4C115A131EB887E900B58858 /* CustomeAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeAnnotation.m; sourceTree = "<group>"; };
+		4C115A1D1EB889E600B58858 /* QuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadTree.h; sourceTree = "<group>"; };
+		4C115A1E1EB889E600B58858 /* QuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadTree.m; sourceTree = "<group>"; };
+		4C115A201EB88A2200B58858 /* CoordinateQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateQuadTree.h; sourceTree = "<group>"; };
+		4C115A211EB88A2200B58858 /* CoordinateQuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinateQuadTree.m; sourceTree = "<group>"; };
+		4C115A651EB88FDA00B58858 /* CustomeAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomeAnnotationView.h; sourceTree = "<group>"; };
+		4C115A661EB88FDA00B58858 /* CustomeAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeAnnotationView.m; sourceTree = "<group>"; };
+		4C115A681EB8916800B58858 /* CustomeAnnotionsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomeAnnotionsVC.h; sourceTree = "<group>"; };
+		4C115A691EB8916800B58858 /* CustomeAnnotionsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeAnnotionsVC.m; sourceTree = "<group>"; };
+		4C115A6B1EB8925500B58858 /* CommonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtility.h; sourceTree = "<group>"; };
+		4C115A6C1EB8925500B58858 /* CommonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtility.m; sourceTree = "<group>"; };
+		4C115A711EB8C70000B58858 /* dw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dw@2x.png"; sourceTree = "<group>"; };
+		4C115A721EB8C70000B58858 /* dw@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dw@3x.png"; sourceTree = "<group>"; };
+		4C115A731EB8C70000B58858 /* dw_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dw_select@2x.png"; sourceTree = "<group>"; };
+		4C115A741EB8C70000B58858 /* dw_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dw_select@3x.png"; sourceTree = "<group>"; };
+		4C115A751EB8C70000B58858 /* wx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wx@2x.png"; sourceTree = "<group>"; };
+		4C115A761EB8C70000B58858 /* wx@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wx@3x.png"; sourceTree = "<group>"; };
+		4C115A771EB8C70000B58858 /* wx_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wx_select@2x.png"; sourceTree = "<group>"; };
+		4C115A781EB8C70000B58858 /* wx_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wx_select@3x.png"; sourceTree = "<group>"; };
+		4C115A871EB8C8A200B58858 /* 01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01@2x.png"; sourceTree = "<group>"; };
+		4C115A881EB8C8A200B58858 /* 01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01@3x.png"; sourceTree = "<group>"; };
+		A0C5AC06091A6FAB18E362CA /* Pods-MAMapView--polymerization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAMapView--polymerization.release.xcconfig"; path = "Pods/Target Support Files/Pods-MAMapView--polymerization/Pods-MAMapView--polymerization.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D93411934E14B1DA5A88E8 /* libPods-MAMapView--polymerization.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +127,8 @@
 				4C1158DC1EB881BC00B58858 /* MAMapView--polymerizationTests */,
 				4C1158E71EB881BC00B58858 /* MAMapView--polymerizationUITests */,
 				4C1158C11EB881BC00B58858 /* Products */,
+				4C1158F61EB8858600B58858 /* Frameworks */,
+				80F1F59623B704B1784B46BE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +145,12 @@
 		4C1158C21EB881BC00B58858 /* MAMapView--polymerization */ = {
 			isa = PBXGroup;
 			children = (
+				4C115A6E1EB8C70000B58858 /* resource */,
 				4C1158C61EB881BC00B58858 /* AppDelegate.h */,
 				4C1158C71EB881BC00B58858 /* AppDelegate.m */,
-				4C1158C91EB881BC00B58858 /* ViewController.h */,
-				4C1158CA1EB881BC00B58858 /* ViewController.m */,
+				4C115A0F1EB8874300B58858 /* model */,
+				4C115A0E1EB8873B00B58858 /* view */,
+				4C115A0D1EB8873400B58858 /* controller */,
 				4C1158CC1EB881BC00B58858 /* Main.storyboard */,
 				4C1158CF1EB881BC00B58858 /* Assets.xcassets */,
 				4C1158D11EB881BC00B58858 /* LaunchScreen.storyboard */,
@@ -140,6 +186,74 @@
 			path = "MAMapView--polymerizationUITests";
 			sourceTree = "<group>";
 		};
+		4C1158F61EB8858600B58858 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30C6F13FF2B29E1551F30803 /* libPods-MAMapView--polymerization.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C115A0D1EB8873400B58858 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C115A681EB8916800B58858 /* CustomeAnnotionsVC.h */,
+				4C115A691EB8916800B58858 /* CustomeAnnotionsVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4C115A0E1EB8873B00B58858 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4C115A651EB88FDA00B58858 /* CustomeAnnotationView.h */,
+				4C115A661EB88FDA00B58858 /* CustomeAnnotationView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4C115A0F1EB8874300B58858 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4C115A6B1EB8925500B58858 /* CommonUtility.h */,
+				4C115A6C1EB8925500B58858 /* CommonUtility.m */,
+				4C115A101EB8878200B58858 /* mapData.txt */,
+				4C115A121EB887E900B58858 /* CustomeAnnotation.h */,
+				4C115A131EB887E900B58858 /* CustomeAnnotation.m */,
+				4C115A201EB88A2200B58858 /* CoordinateQuadTree.h */,
+				4C115A211EB88A2200B58858 /* CoordinateQuadTree.m */,
+				4C115A1D1EB889E600B58858 /* QuadTree.h */,
+				4C115A1E1EB889E600B58858 /* QuadTree.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4C115A6E1EB8C70000B58858 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				4C115A871EB8C8A200B58858 /* 01@2x.png */,
+				4C115A881EB8C8A200B58858 /* 01@3x.png */,
+				4C115A711EB8C70000B58858 /* dw@2x.png */,
+				4C115A721EB8C70000B58858 /* dw@3x.png */,
+				4C115A731EB8C70000B58858 /* dw_select@2x.png */,
+				4C115A741EB8C70000B58858 /* dw_select@3x.png */,
+				4C115A751EB8C70000B58858 /* wx@2x.png */,
+				4C115A761EB8C70000B58858 /* wx@3x.png */,
+				4C115A771EB8C70000B58858 /* wx_select@2x.png */,
+				4C115A781EB8C70000B58858 /* wx_select@3x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		80F1F59623B704B1784B46BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44D04FF459FFB4073E5D11AA /* Pods-MAMapView--polymerization.debug.xcconfig */,
+				A0C5AC06091A6FAB18E362CA /* Pods-MAMapView--polymerization.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C1158ED1EB881BC00B58858 /* Build configuration list for PBXNativeTarget "MAMapView--polymerization" */;
 			buildPhases = (
+				4C90B469559E47F6C977E421 /* [CP] Check Pods Manifest.lock */,
 				4C1158BC1EB881BC00B58858 /* Sources */,
 				4C1158BD1EB881BC00B58858 /* Frameworks */,
 				4C1158BE1EB881BC00B58858 /* Resources */,
+				74DE6BC89C02CC833CB38CF8 /* [CP] Embed Pods Frameworks */,
+				30ED76A28D105639A5C53E76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,8 +366,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C115A811EB8C70000B58858 /* wx_select@2x.png in Resources */,
+				4C115A7C1EB8C70000B58858 /* dw@3x.png in Resources */,
+				4C115A8A1EB8C8A200B58858 /* 01@3x.png in Resources */,
+				4C115A7F1EB8C70000B58858 /* wx@2x.png in Resources */,
 				4C1158D31EB881BC00B58858 /* LaunchScreen.storyboard in Resources */,
+				4C115A7D1EB8C70000B58858 /* dw_select@2x.png in Resources */,
+				4C115A7B1EB8C70000B58858 /* dw@2x.png in Resources */,
+				4C115A891EB8C8A200B58858 /* 01@2x.png in Resources */,
+				4C115A111EB8878200B58858 /* mapData.txt in Resources */,
 				4C1158D01EB881BC00B58858 /* Assets.xcassets in Resources */,
+				4C115A821EB8C70000B58858 /* wx_select@3x.png in Resources */,
+				4C115A7E1EB8C70000B58858 /* dw_select@3x.png in Resources */,
+				4C115A801EB8C70000B58858 /* wx@3x.png in Resources */,
 				4C1158CE1EB881BC00B58858 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,14 +399,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30ED76A28D105639A5C53E76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MAMapView--polymerization/Pods-MAMapView--polymerization-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C90B469559E47F6C977E421 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74DE6BC89C02CC833CB38CF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MAMapView--polymerization/Pods-MAMapView--polymerization-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C1158BC1EB881BC00B58858 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C1158CB1EB881BC00B58858 /* ViewController.m in Sources */,
+				4C115A671EB88FDA00B58858 /* CustomeAnnotationView.m in Sources */,
+				4C115A141EB887E900B58858 /* CustomeAnnotation.m in Sources */,
+				4C115A1F1EB889E600B58858 /* QuadTree.m in Sources */,
+				4C115A6A1EB8916800B58858 /* CustomeAnnotionsVC.m in Sources */,
 				4C1158C81EB881BC00B58858 /* AppDelegate.m in Sources */,
+				4C115A221EB88A2200B58858 /* CoordinateQuadTree.m in Sources */,
 				4C1158C51EB881BC00B58858 /* main.m in Sources */,
+				4C115A6D1EB8925500B58858 /* CommonUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,9 +606,15 @@
 		};
 		4C1158EE1EB881BC00B58858 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44D04FF459FFB4073E5D11AA /* Pods-MAMapView--polymerization.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UJ7KYTGD68;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "MAMapView--polymerization/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Michal.MAMapView--polymerization";
@@ -437,9 +624,15 @@
 		};
 		4C1158EF1EB881BC00B58858 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0C5AC06091A6FAB18E362CA /* Pods-MAMapView--polymerization.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UJ7KYTGD68;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "MAMapView--polymerization/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Michal.MAMapView--polymerization";
@@ -516,6 +709,7 @@
 				4C1158EF1EB881BC00B58858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C1158F01EB881BC00B58858 /* Build configuration list for PBXNativeTarget "MAMapView--polymerizationTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +718,7 @@
 				4C1158F21EB881BC00B58858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C1158F31EB881BC00B58858 /* Build configuration list for PBXNativeTarget "MAMapView--polymerizationUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +727,7 @@
 				4C1158F51EB881BC00B58858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
