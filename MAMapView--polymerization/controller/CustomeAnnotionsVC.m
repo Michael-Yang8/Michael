@@ -128,11 +128,11 @@
 /* 根据点击 显示相应类别的大头针 */
 - (void)hl_addAnnotations{
     NSMutableArray *annotations = [NSMutableArray array];
+    self.images = [NSMutableArray array];
     NSString *txtPath=[[NSBundle mainBundle]pathForResource:@"mapData" ofType:@"txt"];
     NSData *data = [NSData dataWithContentsOfFile:txtPath];
     NSString *resultStr  =[[ NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     NSArray * array = [resultStr componentsSeparatedByString:@"|"];
-    self.images = [NSMutableArray array];
     for (NSInteger i = 0; i < 10; i++) {
         NSString *str = array[i];
         NSArray *temp = [str componentsSeparatedByString:@","];
