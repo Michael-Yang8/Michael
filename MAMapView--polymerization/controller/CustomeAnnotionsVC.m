@@ -231,9 +231,8 @@
         annotationView.annotation = annotation;
         annotationView.count = [(CustomeAnnotation *)annotation count];
         annotationView.canShowCallout = NO;
-       // annotationView.iconImage.image = [UIImage imageNamed:@"01.png"];
-        CustomeAnnotation *cAnnotation = (CustomeAnnotation *)annotation;
-        annotationView.iconImage.image = [UIImage imageNamed:cAnnotation.images[0]];
+        CustomeAnnotation *customeAnnotation = (CustomeAnnotation *)annotation;
+        annotationView.iconImage.image = [UIImage imageNamed:customeAnnotation.images[0]];
         return annotationView;
     }
     
