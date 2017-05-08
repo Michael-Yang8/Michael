@@ -14,7 +14,7 @@
 @interface CustomeAnnotation : NSObject<MAAnnotation>
 @property (assign, nonatomic) CLLocationCoordinate2D coordinate;
 @property (assign, nonatomic) NSInteger count;
-@property (nonatomic, strong) NSMutableArray *pois;
+@property (nonatomic, strong) NSMutableArray *images;
 - (id)initWithCoordinate:(CLLocationCoordinate2D)coordinate count:(NSInteger)count;
 
 

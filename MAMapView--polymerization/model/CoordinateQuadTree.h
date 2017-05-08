@@ -15,7 +15,7 @@
 @property(nonatomic,assign)QuadTreeNode *root;
 - (void)buildTreeWithAnnotations:(NSArray *)annotations;
 - (void)clean;
-- (NSArray *)clusteredAnnotationsWithinMapRect:(MAMapRect)rect withZoomScale:(double)zoomScale andZoomLevel:(double)zoomLevel;
+- (NSArray *)clusteredAnnotationsWithinMapRect:(MAMapRect)rect withZoomScale:(double)zoomScale andZoomLevel:(double)zoomLevel andImages:(NSMutableArray *)images;
 
 
 @end

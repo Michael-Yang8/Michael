@@ -25,7 +25,7 @@
     if (self){
         _coordinate = coordinate;
         _count = count;
-        _pois  = [NSMutableArray arrayWithCapacity:count];
+        _images  = [NSMutableArray arrayWithCapacity:count];
     }
     return self;
 }

@@ -77,7 +77,7 @@ BoundingBox quadTreeNodeDataArrayForAnnotations(QuadTreeNodeData *dataArray, NSA
 #pragma mark -
 @implementation CoordinateQuadTree
 #pragma mark Utility
-- (NSArray *)clusteredAnnotationsWithinMapRect:(MAMapRect)rect withZoomScale:(double)zoomScale andZoomLevel:(double)zoomLevel{
+- (NSArray *)clusteredAnnotationsWithinMapRect:(MAMapRect)rect withZoomScale:(double)zoomScale andZoomLevel:(double)zoomLevel andImages:(NSMutableArray *)images{
     double CellSize = CellSizeForZoomLevel(zoomLevel);
     double scaleFactor = zoomScale / CellSize;
     
@@ -110,7 +110,7 @@ BoundingBox quadTreeNodeDataArrayForAnnotations(QuadTreeNodeData *dataArray, NSA
             if (count == 1){
                 CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(totalX, totalY);
                 CustomeAnnotation *annotation = [[CustomeAnnotation alloc] initWithCoordinate:coordinate count:count];
-                annotation.pois = annotations;
+                annotation.images = images;
                 
                 [clusteredAnnotations addObject:annotation];
             }
@@ -119,7 +119,7 @@ BoundingBox quadTreeNodeDataArrayForAnnotations(QuadTreeNodeData *dataArray, NSA
             if (count > 1){
                 CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(totalX / count, totalY / count);
                 CustomeAnnotation *annotation = [[CustomeAnnotation alloc] initWithCoordinate:coordinate count:count];
-                annotation.pois  = annotations;
+                annotation.images  = images;
 
                 [clusteredAnnotations addObject:annotation];
             }
