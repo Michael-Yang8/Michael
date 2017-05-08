@@ -56,7 +56,7 @@
  *  是否定位
  */
 @property(nonatomic)BOOL isLocation;
-
+@property(nonatomic,strong)NSMutableArray *images;
 
 @end
 
@@ -132,6 +132,7 @@
     NSData *data = [NSData dataWithContentsOfFile:txtPath];
     NSString *resultStr  =[[ NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     NSArray * array = [resultStr componentsSeparatedByString:@"|"];
+    self.images = [NSMutableArray array];
     for (NSInteger i = 0; i < 10; i++) {
         NSString *str = array[i];
         NSArray *temp = [str componentsSeparatedByString:@","];
@@ -140,6 +141,8 @@
         CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake([lat doubleValue], [lon doubleValue]);
         CustomeAnnotation *annotation = [[CustomeAnnotation alloc]init];
         annotation.coordinate = coordinate;
+        NSString *imageName = @"01.png";
+        [self.images addObject:imageName];
         [annotations addObject:annotation];
     }
     
@@ -204,7 +207,7 @@
         
         __weak typeof(self) weakSelf = self;
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-            NSArray *annotations = [weakSelf.coordinateQuadTree clusteredAnnotationsWithinMapRect:visibleRect withZoomScale:zoomScale andZoomLevel:zoomLevel];
+            NSArray *annotations = [weakSelf.coordinateQuadTree clusteredAnnotationsWithinMapRect:visibleRect withZoomScale:zoomScale andZoomLevel:zoomLevel andImages:self.images];
             /* 更新annotation. */
             [weakSelf updateMapViewAnnotationsWithAnnotations:annotations];
         });
@@ -228,8 +231,9 @@
         annotationView.annotation = annotation;
         annotationView.count = [(CustomeAnnotation *)annotation count];
         annotationView.canShowCallout = NO;
-        annotationView.iconImage.image = [UIImage imageNamed:@"01.png"];
-        
+       // annotationView.iconImage.image = [UIImage imageNamed:@"01.png"];
+        CustomeAnnotation *cAnnotation = (CustomeAnnotation *)annotation;
+        annotationView.iconImage.image = [UIImage imageNamed:cAnnotation.images[0]];
         return annotationView;
     }
     
